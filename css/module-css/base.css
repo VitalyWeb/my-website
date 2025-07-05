@@ -1,0 +1,50 @@
+:root {
+  --color-primary: #f5f7fa;        
+  --color-accent: #3b82f6;         
+  --color-light: #ffffff;          
+  --color-dark-text: #1f2937;      
+  --color-footer-bg: #e5e7eb;      
+  --color-card: #ffffff;           
+  --color-border: #d1d5db;         
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  font-size: 16px;
+  font-family: "Ubuntu", sans-serif;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: var(--color-primary);
+  padding: 0 10px;
+  color: var(--color-dark-text);
+}
+
+.main {
+  background-color: var(--color-primary);
+}
+
+.main__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 1fr auto;
+  gap: 10px;
+  padding: 20px;
+}
+
+.card {
+  background-color: var(--color-card);
+  color: var(--color-dark-text);
+  border: 1px solid var(--color-border);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

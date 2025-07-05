@@ -1,0 +1,84 @@
+@media (max-width: 768px) {
+  .main__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .main__grid {
+    gap: 20px;
+    padding: 15px;
+  }
+
+  .card {
+    padding: 15px;
+    max-width: 90%;
+  }
+
+  .card__text {
+    font-size: 0.9rem;
+  }
+
+  .slider-section {
+    width: 90%;
+  }
+
+  .my-carousel {
+    width: 400px;
+    max-width: 100%;
+    aspect-ratio: 16 / 9;
+  }
+
+  .my-carousel-item img {
+    width: 400px;
+    max-width: 100%;
+    object-fit: cover;
+  }
+
+  .caption {
+    width: 70%;
+    font-size: 0.8rem;
+    text-wrap: wrap;
+  }
+}
+
+@media (max-width: 400px) {
+  .page {
+    padding: 0 5px;
+  }
+
+  .main__grid {
+    gap: 15px;
+    padding: 10px;
+  }
+
+  .card {
+    padding: 10px;
+    max-width: 85%;
+  }
+
+  .card__photo {
+    width: 120px;
+  }
+
+  .card__buttons {
+    gap: 8px;
+  }
+
+  .card__btn {
+    width: 40px;
+    height: 40px;
+  }
+
+  .card__btn i {
+    font-size: 18px;
+  }
+
+  .slider-section__text {
+    font-size: 0.9rem;
+  }
+
+  .slider-section {
+    width: 85%;
+  }
+}
