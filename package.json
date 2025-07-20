@@ -22,6 +22,6 @@
   "description": "",
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
-    "vercel": "^44.2.12"
+    "vercel": "^44.5.0"
   }
 }
